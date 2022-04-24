@@ -5,7 +5,12 @@ class Themes {
   static ThemeData lightTheme = ThemeData(
     primarySwatch: Colors.blue,
     brightness: Brightness.light,
-    appBarTheme: AppBarTheme(backgroundColor: Color(0xffffffff), elevation: 0),
+    appBarTheme: AppBarTheme(
+      backgroundColor: Color(0xffffffff),
+      iconTheme: IconThemeData(
+        color: Color(0xff000000),
+      ),
+    ),
     inputDecorationTheme: InputDecorationTheme(
       border: OutlineInputBorder(
           borderSide: BorderSide.none, borderRadius: BorderRadius.circular(10)),
@@ -27,13 +32,13 @@ class Themes {
       headline3: TextStyle(
           letterSpacing: -1.0,
           fontSize: 28,
-          color: Colors.black,
-          fontWeight: FontWeight.bold),
+          fontWeight: FontWeight.w600,
+          color: Colors.black87),
       headline4: TextStyle(
           letterSpacing: -1.0,
-          color: Colors.black,
           fontSize: 26,
-          fontWeight: FontWeight.w600),
+          fontWeight: FontWeight.w600,
+          color: Colors.grey.shade700),
       headline5: TextStyle(
           letterSpacing: -1.0,
           color: Colors.black,
@@ -78,7 +83,7 @@ class Themes {
     ),
     cardTheme: CardTheme(
       elevation: 0,
-      color: Colors.white,
+      color: Color(0xfffcf2ec),
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(10),
       ),

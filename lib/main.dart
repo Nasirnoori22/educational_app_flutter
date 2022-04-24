@@ -8,7 +8,6 @@ void main() {
     new MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter e-commerce app',
-      theme: Themes.lightTheme,
       // initialRoute: '',
       // routes: {
       //   '': (context) => Home(),

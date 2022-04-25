@@ -4,14 +4,14 @@ import 'package:flutter/material.dart';
 import 'package:iconly/iconly.dart';
 import 'package:educational_app_flutter/theme/theme.dart';
 
-class Homepage extends StatefulWidget {
-  const Homepage({Key? key}) : super(key: key);
+class HomeProfile extends StatefulWidget {
+  const HomeProfile({Key? key}) : super(key: key);
 
   @override
-  State<Homepage> createState() => _HomepageState();
+  State<HomeProfile> createState() => _HomeProfileState();
 }
 
-class _HomepageState extends State<Homepage> {
+class _HomeProfileState extends State<HomeProfile> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -27,7 +27,8 @@ class _HomepageState extends State<Homepage> {
           Padding(
             padding: const EdgeInsets.only(
               top: 30.0,
-              left: 15,
+              left: 20,
+              right: 20,
             ),
             child: SingleChildScrollView(
               scrollDirection: Axis.horizontal,
@@ -107,9 +108,9 @@ class _HomepageState extends State<Homepage> {
             ),
           ),
           Padding(
-            padding: const EdgeInsets.only(left: 15.0, top: 25, right: 15),
+            padding: const EdgeInsets.only(left: 20.0, top: 25, right: 15),
             child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
                 Text('Next', style: Themes.lightTheme.textTheme.headline4),
                 Container(
@@ -137,6 +138,7 @@ class _HomepageState extends State<Homepage> {
             ),
           ),
           NextClass(),
+          // MyStatefulWidget(),
         ],
       ),
     );

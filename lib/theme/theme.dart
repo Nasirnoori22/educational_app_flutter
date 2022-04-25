@@ -47,17 +47,15 @@ class Themes {
       headline6: TextStyle(
           color: Colors.black, fontSize: 18, fontWeight: FontWeight.w500),
       subtitle1: TextStyle(
-          color: Colors.black, fontSize: 16, fontWeight: FontWeight.w500),
+          color: Colors.white, fontSize: 26, fontWeight: FontWeight.w700),
       subtitle2: TextStyle(
           color: Colors.black, fontSize: 14, fontWeight: FontWeight.w500),
       bodyText1: TextStyle(
           color: Colors.grey.shade700,
-          fontSize: 16,
-          fontWeight: FontWeight.w400),
+          fontSize: 25,
+          fontWeight: FontWeight.w500),
       bodyText2: TextStyle(
-          color: Colors.grey.shade600,
-          fontSize: 14,
-          fontWeight: FontWeight.w400),
+          color: Colors.white, fontSize: 18, fontWeight: FontWeight.w500),
       button: TextStyle(
           color: Colors.white, fontSize: 14, fontWeight: FontWeight.w600),
       caption: TextStyle(

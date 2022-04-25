@@ -15,7 +15,12 @@ dependencies:
   flutter:
     sdk: flutter
   iconly: ^1.0.1
-  
+  intl: ^0.17.0
+  flutter_next: ^0.1.0
+  bottom_navy_bar: ^6.0.0
+
+
+
 
 
 

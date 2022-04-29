@@ -227,7 +227,12 @@ class NextClass extends StatelessWidget {
           ],
         ),
         Container(
-          color: Colors.black,
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.only(
+              bottomLeft: Radius.circular(50),
+              bottomRight: Radius.circular(50),
+            ),
+          ),
           child: Row(
             children: [
               Padding(
